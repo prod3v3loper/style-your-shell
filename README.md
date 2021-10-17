@@ -1,6 +1,6 @@
 # Style your Shell
 
-![Image of Yaktocat](img/preview.png)
+![Preview](img/preview.png)
 
 # Instructions
 
@@ -68,7 +68,7 @@ Now is the time to configure
 p10k configure
 ```
 
-![Image of Yaktocat](img/config.png)
+![Config](img/config.png)
 
 Follow the steps and set everything as you want. That's it.
 
@@ -78,7 +78,7 @@ Open settings in VSC (Visual Studio Code)
 
 Go to Terminal/Console, scroll down to settings.json and click on it
 
-![Image of Yaktocat](img/console.png)
+![Console](img/console.png)
 
 Add following lines on top
 

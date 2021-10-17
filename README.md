@@ -82,7 +82,15 @@ Go to Terminal/Console, scroll down to settings.json and click on it
 
 Add following lines on top
 
+https://code.visualstudio.com/docs/editor/integrated-terminal
+
 ```json
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.profiles.osx": {
+    "my-zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    }
+  }
+  "terminal.integrated.defaultProfile.osx": "my-zsh"
 ```

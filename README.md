@@ -1,4 +1,6 @@
-# Style your Shell
+# Style your MAC Shell
+
+To style your shell and have a better overview of your Git projects, follow the steps in the instructions.
 
 ![Preview](img/preview.png)
 
@@ -24,7 +26,7 @@ Install plugins and add to ~/.zshrc
 
 https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins
 
-```shell
+```
 $ nano ~/.zshrc
 // or
 $ vi ~/.zshrc
@@ -42,16 +44,9 @@ vscode
 
 Donwload recommended fonts and install with double click.
 
-Follow this link info:
+Follow this link:
 
 https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
-
-Or download the fonts directly here:
-
-[https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf](MesloLGS NF Regular.ttf)
-[https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf](MesloLGS NF Bold.ttf)
-[https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf](MesloLGS NF Italic.ttf)
-[https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf](MesloLGS NF Bold Italic.ttf)
 
 ## Theme
 
@@ -72,15 +67,21 @@ p10k configure
 
 Follow the steps and set everything as you want. That's it.
 
+# Integrate in Mac Terminal
+
+![Mac](img/terminal.png)
+
+Open settings and change font in `MesloLGS NF`
+
 # Integrate in VSC
 
 Open settings in VSC (Visual Studio Code)
 
 Go to Terminal/Console, scroll down to settings.json and click on it
 
-![Console](img/console.png)
+![VSCODE](img/vscode.png)
 
-Add following lines on top
+Add following lines on top in settings under Terminal
 
 https://code.visualstudio.com/docs/editor/integrated-terminal
 
@@ -94,3 +95,9 @@ https://code.visualstudio.com/docs/editor/integrated-terminal
   }
   "terminal.integrated.defaultProfile.osx": "my-zsh"
 ```
+
+# Integrate in Apache Netbeans
+
+![Apache Netbeans](img/netbeans.png)
+
+Go to Terminal settings and change font to `MesloLGS NF`
